@@ -1,0 +1,58 @@
+.adresCard {
+    padding: 50px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    transition: .3s;
+}
+.adresCard span {
+    margin-top: 12px;
+}
+.adresCard a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    transition: .3s;
+}
+.adresCard .btn {
+    border: 1px solid rgb(23, 144, 219);
+    padding: 8px 16px;
+    border-radius: 30px;
+    margin-top: 15px ;
+    transition: .3s;
+}
+.adresCard:hover {
+    background-color: rgb(23, 144, 219);
+    color: white !important;
+    transition: .3s;
+    transform: scale(1.1);
+}
+.adresCard:hover .icon {
+    color: white !important;
+    transition: .3s;
+}
+.adresCard:hover a {
+    transition: .3s;
+    color: white !important;
+}
+.adresCard:hover .btn {
+    border: 1px solid white;
+    color: white;
+    transition: .3s;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer h3 a {
+    text-decoration: none;
+    color: white;
+}
+.footer .social {
+    display: flex;
+    align-items: center;
+    
+}
